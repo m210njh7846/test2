@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        
+.navbar-toggler-icon{
+    display: inline-block;
+}
+
+h1{
+    margin-bottom: 20px; text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;font-weight: bold;
+  }
+  .rew{
+    width:100%;
+  }
+  .col-lg-3{
+     float: left;width: 30%; background-color: gray;
+     margin: 12px;
+    
+  }
+  
+  .h2-1{
+  
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black; position: relative; margin-right: 10px; text-align: center;
+  }
+  .h2-2{
+    
+    width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color:black; position: relative; margin-right: 10px;
+  }
+  .h2-3{
+    width: 90px;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Helvetica;
+    color: black; position: relative; margin-right: 10px;
+  }
+  @media (max-width: 992px) {
+    .col-lg-1, .col-lg-2, .col-lg-3{
+      float: left;
+   
+    }
+    .col-lg-1 {
+        width: 30%;
+      }
+      .col-lg-2 {
+        width: 30%;
+      }
+      .col-lg-3 {
+        width: 30%;
+      }
+}
+@media (max-width: 768px) {
+    .col-lg-1, .col-lg-2, .col-lg-3{
+      float: left;
+   
+    }
+    .col-lg-1 {
+        width: 40%;
+      }
+      .col-lg-2 {
+        width: 40%;
+      }
+      .col-lg-3 {
+        width: 45%;
+      }
+      .col-lg-4 {
+        width: 33.33%;
+      }
+      .col-lg-5 {
+        width: 41.66%;
+      }
+      .col-lg-6 {
+        width: 50%;
+      }
+      .col-lg-7 {
+        width: 58.33%;
+      }
+      .col-lg-8 {
+        width: 66.66%;
+      }
+      .col-lg-9 {
+        width: 74.99%;
+      }
+      .col-lg-10 {
+        width: 83.33%;
+      }
+      .col-lg-11 {
+        width: 91.66%;
+      }
+      .col-lg-12 {
+        width: 100%;
+      }
+     }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">food,llc</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav " >
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">chicken</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">beef</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">sushi</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+       
+        </div>
+        <h1>our menu</h1>
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <h2 class="h2-1">chicken</h2>
+              <p>Genetic studies have pointed to multiple maternal origins in South Asia, Southeast Asia, and East Asia,[6] but the clade found in the Americas, Europe, the Middle East and Africa originated from the Indian subcontinent.
+                 From ancient India, the chicken spread to Lydia in</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h2 class="h2-2">beef</h2>
+              <p>is also found in such English word-pairs as pig/pork, deer/venison, sheep/mutton and chicken/poultry (also the less common goat/chevon).[3] Beef is cognate with bovine through the Late Latin bovīnus
+                .[4] The rarely used plural form of beef is beeves</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+              <h2 class="h2-3">sushi</h2>
+              <p>fermentation process to be shortened and eventually abandoned. The primitive sushi would be further developed in Osaka,
+                 where over several centuries it became oshi-zushi or hako-zushi; in this preparation, the seafood and rice were pressed into shape with wooden (typically bamboo) molds.</p>
+            </div>
+          </div>
+     
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
